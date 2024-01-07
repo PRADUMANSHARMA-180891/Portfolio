@@ -1,8 +1,6 @@
 import React,{useState} from 'react'
-import About  from '../aboutPage/About';
 import { Link } from 'react-router-dom';
-import Contact from '../contact/Contact';
-import Main from '../mainPage/Main';
+
 
 const  Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -47,12 +45,12 @@ const  Header = () => {
             <li className="border-b border-gray-400 my-8 uppercase">
               <a href="/portfolio">Portfolio</a>
             </li>
-            <li className="border-b border-gray-400 my-8 uppercase">
+            <li className="border-b border-gray-900 my-8 uppercase">
               <a href="/contact">Contact</a>
             </li>
             <div  className='ml-6'>
-        <button>HIRE ME</button>
-      </div>
+              <button className='text-white bg-purple-600 font-medium rounded-lg'>HIRE ME</button>
+            </div>
           </ul>
         </div>
       </section>

@@ -19,7 +19,7 @@ const Main = () => {
             text-sm px-5 
             py-2.5 
             me-2 
-            mt-8
+            mt-16
              dark:bg-gray-800
               dark:text-white
          dark:border-gray-600
