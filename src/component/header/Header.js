@@ -65,7 +65,8 @@ const  Header = () => {
         <li>
         <a><Link to='/contact'>Contact</Link></a>
         </li>
-        <div  className='ml-8'>
+        <div className='ml-8 text-base font-xl text-white border-2 border-blue-500 bg-blue-500 focus:ring-blue-800 active:ring-4 focus:outline-none hover:bg-blue-600 px-3 py-1.5 rounded-md font-serif'>
+
         <button>HIRE ME</button>
       </div>
       </ul>
