@@ -20,7 +20,6 @@ const Portfolio = () => {
                          <a className='text-white font-serif font-extrabold border-2 border-fuchsia-900 hover: cursor-pointer px-4 py-1.5 rounded-md mt-8 bg-fuchsia-900 hover:bg-fuchsia-950 mb-6 focus:ring-4 active:ring-zinc-700'>GitHub Link</a>
                       </div>
                  </div>
-             
             </div>
             <div className='w-70 h-1/2 rounded-full'>
                  <div className='w-70 h-72 rounded-3xl'>

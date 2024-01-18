@@ -54,7 +54,6 @@ const  Header = () => {
           </ul>
         </div>
       </section>
-
       <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-lg font-medium text-yellow-50">
         <li >
           <a><Link to='/about'>About</Link></a>
