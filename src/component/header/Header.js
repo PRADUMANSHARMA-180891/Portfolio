@@ -1,14 +1,14 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
-
+import { Dialog } from '@headlessui/react'
+import HireModel from '../pages/HireModel';
 
 const  Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  let [isOpen, setIsOpen] = useState(true)
   return (
     <div className="flex items-center justify-evenly py-5 mx-auto bg-slate-800">
-    <a href="/">
-      <img src="https://designbygio.it/images/logo.png" alt="logo" />
-    </a>
+   
     <nav>
       <section className="MOBILE-MENU flex lg:hidden">
         <div
@@ -20,7 +20,7 @@ const  Header = () => {
           <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
         </div>
 
-        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}> // toggle class based on isNavOpen state
+        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
           <div
             className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
@@ -54,7 +54,7 @@ const  Header = () => {
           </ul>
         </div>
       </section>
-      <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-lg font-medium text-yellow-50">
+      <ul className="DESKTOP-MENU hidden space-x-12 py-4 lg:flex text-xl font-medium text-yellow-50">
         <li >
           <a><Link to='/about'>About</Link></a>
         </li>
@@ -65,10 +65,10 @@ const  Header = () => {
         <a><Link to='/contact'>Contact</Link></a>
         </li>
         <div className='ml-8 text-base font-xl text-white border-2 border-blue-500 bg-blue-500 focus:ring-blue-800 active:ring-4 focus:outline-none hover:bg-blue-600 px-3 py-1.5 rounded-md font-serif'>
-        <button>HIRE ME</button>
+        <button onClick={() => setIsOpen(true)}>HIRE ME</button>
       </div>
       </ul>
-      
+      <HireModel isopen={isOpen} setIsOpen={setIsOpen}/>
     </nav>
    
     <style>{`
