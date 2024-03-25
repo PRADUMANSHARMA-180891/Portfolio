@@ -41,14 +41,15 @@ import React from 'react'
                     <div>
                         <h2
                             class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900 dark:from-blue-400 dark:to-blue-500 rounded-3xl dark:text-gray-100">
-                            February 2006</h2>
+                            2018 - 2022</h2>
                         <div
                             class="flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
                             <div class="z-20 p-6">
-                                <p class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400">Website Launched</p>
+                                <p class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400">Graduation</p>
                                 <p class="text-gray-700 dark:text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam libero facilis minus
-                                    reprehenderit.
+                                B.Tech in Computer Science & Engineering from
+                                Central University of Haryana.
+                            
                                 </p>
                             </div>
                         </div>
@@ -67,15 +68,13 @@ import React from 'react'
                     <div>
                         <h2
                             class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900 dark:from-blue-400 dark:to-blue-500 rounded-3xl dark:text-gray-100">
-                            March 2016</h2>
+                            2016-2018</h2>
                         <div
                             class="flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
                             <div class="z-20 p-6">
-                                <p class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400"> Made 100+ Themes</p>
+                                <p class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400">Intermediate</p>
                                 <p class="text-gray-700 dark:text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam libero facilis minus
-                                    reprehenderit.
-                                </p>
+                                Successfully completed Higher Secondary in Physics, Chemistry, and Mathematics.                                </p>
                             </div>
                         </div>
                     </div>
@@ -93,16 +92,16 @@ import React from 'react'
                     <div>
                         <h2
                             class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900 dark:from-blue-400 dark:to-blue-500 rounded-3xl dark:text-gray-100">
-                            jrwnjknvjkrnw</h2>
+                            2014-2015
+                        </h2>
                         <div
                             class="flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
                             <div class="z-20 p-6">
                                 <p class="mb-2 text-xl font-bold text-gray-600 dark:text-gray-400">
-                                    Launch Project
+                                10th Standard
                                 </p>
                                 <p class="text-gray-700 dark:text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam libero facilis minus
-                                    reprehenderit.
+                                Successfully completed secondary education from Uma Shankar Singh High School. .
                                 </p>
                             </div>
                         </div>
