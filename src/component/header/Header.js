@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
-import { Dialog } from '@headlessui/react'
 import HireModel from '../pages/HireModel';
 
 const  Header = () => {
@@ -39,22 +38,28 @@ const  Header = () => {
             </svg>
           </div>
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-            <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="/about">About</a>
-            </li>
-            <li className="border-b border-gray-400 my-8 uppercase">
-              <a href="/portfolio">Portfolio</a>
-            </li>
-            <li className="border-b border-gray-900 my-8 uppercase">
-              <a href="/contact">Contact</a>
-            </li>
-            <div  className='ml-6'>
-              <button className='text-white bg-purple-600 font-medium rounded-lg'>HIRE ME</button>
-            </div>
-          </ul>
+  <li className="border-b border-gray-400 my-8 uppercase">
+    <Link to="/">Home</Link>
+  </li>
+  <li className="border-b border-gray-400 my-8 uppercase">
+    <Link to="/about">About</Link>
+  </li>
+  <li className="border-b border-gray-400 my-8 uppercase">
+    <Link to="/portfolio">Portfolio</Link>
+  </li>
+  <li className="border-b border-gray-900 my-8 uppercase">
+    <Link to="/contact">Contact</Link>
+  </li>
+  <div className='ml-6'>
+    <button className='text-white bg-purple-600 font-medium rounded-lg'>HIRE ME</button>
+  </div>
+</ul>
         </div>
       </section>
       <ul className="DESKTOP-MENU hidden space-x-12 py-4 lg:flex text-xl font-medium text-yellow-50">
+      <li >
+          <a><Link to='/'>Home</Link></a>
+        </li>
         <li >
           <a><Link to='/about'>About</Link></a>
         </li>
