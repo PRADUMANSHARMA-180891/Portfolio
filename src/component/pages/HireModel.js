@@ -19,8 +19,10 @@ const HireModel =({isopen, setIsOpen})=>{
             <button className='' type='button' onClick={() => setIsOpen(false)}>close</button>
             </div>
             <div className='absolute right-12 bottom-2 text-white border-2 border-blue-600 bg-blue-600 hover:bg-blue-700 px-6 py-1.5 mt-4 rounded-full focus:ring-4'>
-            <button className='' type='button'>send</button>
+            <button className='' type='button' onClick={() => setIsOpen(false)}>send</button>
+            
             </div>
+            
           </div>
         </div>
       </Dialog>
